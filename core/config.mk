@@ -988,4 +988,7 @@ $(eval include device/xtended/sepolicy/common/sepolicy.mk)
 -include $(TOPDIR)vendor/xtended/build/core/mtk_target.mk
 endif
 
+# Rules for QCOM targets
+include $(BUILD_SYSTEM)/qcom_target.mk
+
 include $(BUILD_SYSTEM)/dumpvar.mk
